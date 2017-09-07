@@ -1,0 +1,269 @@
+$primary-color: #973694;
+$secondary-color: #495B6E;
+$shade-color: #7b296e;
+
+header {
+	background-color: $primary-color;
+	background-image: url( '../../assets/images/young-toddler-reading-book-on-floor.jpg' );
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 40px;
+
+	.section-header {
+		padding-top: 40px;
+		background-color: transparent;
+	}
+
+	nav {
+		margin-top: 40px;
+		border-top: 4px solid $primary-color;
+		border-bottom: 4px solid $primary-color;
+	}
+
+	h2,
+	p {
+		color: #fff;
+	}
+
+	&.sub-page {
+		background: #fff;
+
+		nav {
+			margin-top: 0;
+
+			ul.is-horizontal {
+				margin: 0;
+			}
+
+			a {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+section {
+	background-color: #fff;
+}
+
+header,
+section,
+footer, {
+
+	.section-header,
+	.section-body {
+
+		.wrapper {
+			max-width: 1200px;
+
+			&.wrapper-content {
+				padding: 0;
+			}
+
+		}
+
+	}
+
+}
+
+nav {
+
+	&:hover {
+		a {
+			color: $shade-color;
+		}
+	}
+
+	a {
+		font-family: 'Catamaran', sans-serif;
+		color: #fff;
+		font-size: 14px;
+
+		transition: color 0.5s ease;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+h1 {
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 80px;
+	letter-spacing: 3px;
+	color: $secondary-color;
+}
+
+h2 {
+	font-family: 'Mouse Memoirs', sans-serif;
+	font-size: 60px;
+	color: $secondary-color;
+
+	&.is-purple {
+		color: $shade-color;
+	}
+
+	&.is-white {
+		color: #fff;
+	}
+
+}
+
+h3 {
+	font-family: 'Catamaran', sans-serif;
+	line-height: 32px;
+	color: $primary-color;
+}
+
+footer {
+	background-color: $primary-color;
+}
+
+.button,
+input[type="submit"],
+input[type="button"] {
+	background-color: $primary-color;
+	color: #fff;
+	padding: 20px;
+	min-width: 200px;
+	font-size: 16px;
+	font-family: 'Catamaran', sans-serif;
+
+	&.is-outlined {
+		color: $primary-color;
+		border-color: $primary-color;
+		padding: 10px 20px;
+		background-color: transparent;
+	}
+
+}
+
+.is-poster {
+	background-color: $secondary-color;
+}
+
+.is-alphabet-party {
+	background-image: url( '../../assets/images/alphabet-party.png' );
+	padding: 80px 20px;
+}
+
+.is-purple-alphabet-party {
+	background-image: url( '../../assets/images/purple-background.png' );
+
+	h1 {
+		color: #fff;
+	}
+
+}
+
+.is-quote-section {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+
+	h2 {
+		font-family: 'Short Stack', cursive;
+		font-size: 28px;
+	}
+}
+
+.is-grey-section {
+	background-color: $secondary-color;
+	padding: 80px 20px;
+
+	p,
+	i,
+	a {
+		color: #fff;
+	}
+}
+
+.is-icon {
+	color: $primary-color;
+}
+
+.has-purple-background {
+	background-color: $primary-color;
+
+	h1, h2, h3, p {
+		color: #fff;
+	}
+
+	.button.is-outlined {
+		border-color: #fff;
+		color: #fff;
+	}
+}
+
+.has-gray-background {
+	background-color: #eee;
+}
+
+.is-rounded {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+#services-header {
+	background-image: url( '../../assets/images/child-reading-book-on-couch.jpg' );
+	background-size: cover;
+	background-position: bottom;
+	padding: 200px 0;
+
+	h1 {
+		color: #fff;
+	}
+}
+
+#services {
+	background-image: url( '../../assets/images/kid-coloring.jpg' );
+	background-size: cover;
+}
+
+#measure-success {
+	background-image: url( '../../assets/images/two-boys-in-chalk-box.jpg' );
+	background-size: cover;
+	background-position: center;
+
+	h2, p {
+		color: #fff;
+	}
+
+}
+
+.posts .thumbnail {
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: $secondary-color;
+
+	p, h2 {
+		color: #fff;
+	}
+
+	.columns .column {
+		border-right: 4px solid darken( $secondary-color, 10% );
+	}
+
+	.list li {
+		margin: 7px 0;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	header nav {
+		text-align: center;
+	}
+	
+	footer {
+
+		.columns .column {
+			border-right: none;
+			padding: 10px 0;
+		}
+
+	}
+
+}

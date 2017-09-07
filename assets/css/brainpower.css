@@ -1,0 +1,178 @@
+header {
+  background-color: #973694;
+  background-image: url("../../assets/images/young-toddler-reading-book-on-floor.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px; }
+  header .section-header {
+    padding-top: 40px;
+    background-color: transparent; }
+  header nav {
+    margin-top: 40px;
+    border-top: 4px solid #973694;
+    border-bottom: 4px solid #973694; }
+  header h2,
+  header p {
+    color: #fff; }
+  header.sub-page {
+    background: #fff; }
+    header.sub-page nav {
+      margin-top: 0; }
+      header.sub-page nav ul.is-horizontal {
+        margin: 0; }
+      header.sub-page nav a {
+        color: #973694; }
+
+section {
+  background-color: #fff; }
+
+header .section-header .wrapper,
+header .section-body .wrapper,
+section .section-header .wrapper,
+section .section-body .wrapper,
+footer .section-header .wrapper,
+footer .section-body .wrapper {
+  max-width: 1200px; }
+  header .section-header .wrapper.wrapper-content,
+  header .section-body .wrapper.wrapper-content,
+  section .section-header .wrapper.wrapper-content,
+  section .section-body .wrapper.wrapper-content,
+  footer .section-header .wrapper.wrapper-content,
+  footer .section-body .wrapper.wrapper-content {
+    padding: 0; }
+
+nav:hover a {
+  color: #7b296e; }
+nav a {
+  font-family: 'Catamaran', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  transition: color 0.5s ease; }
+  nav a:hover {
+    color: #fff; }
+
+h1 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: #495B6E; }
+
+h2 {
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 60px;
+  color: #495B6E; }
+  h2.is-purple {
+    color: #7b296e; }
+  h2.is-white {
+    color: #fff; }
+
+h3 {
+  font-family: 'Catamaran', sans-serif;
+  line-height: 32px;
+  color: #973694; }
+
+footer {
+  background-color: #973694; }
+
+.button,
+input[type="submit"],
+input[type="button"] {
+  background-color: #973694;
+  color: #fff;
+  padding: 20px;
+  min-width: 200px;
+  font-size: 16px;
+  font-family: 'Catamaran', sans-serif; }
+  .button.is-outlined,
+  input[type="submit"].is-outlined,
+  input[type="button"].is-outlined {
+    color: #973694;
+    border-color: #973694;
+    padding: 10px 20px;
+    background-color: transparent; }
+
+.is-poster {
+  background-color: #495B6E; }
+
+.is-alphabet-party {
+  background-image: url("../../assets/images/alphabet-party.png");
+  padding: 80px 20px; }
+
+.is-purple-alphabet-party {
+  background-image: url("../../assets/images/purple-background.png"); }
+  .is-purple-alphabet-party h1 {
+    color: #fff; }
+
+.is-quote-section {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+  .is-quote-section h2 {
+    font-family: 'Short Stack', cursive;
+    font-size: 28px; }
+
+.is-grey-section {
+  background-color: #495B6E;
+  padding: 80px 20px; }
+  .is-grey-section p,
+  .is-grey-section i,
+  .is-grey-section a {
+    color: #fff; }
+
+.is-icon {
+  color: #973694; }
+
+.has-purple-background {
+  background-color: #973694; }
+  .has-purple-background h1, .has-purple-background h2, .has-purple-background h3, .has-purple-background p {
+    color: #fff; }
+  .has-purple-background .button.is-outlined {
+    border-color: #fff;
+    color: #fff; }
+
+.has-gray-background {
+  background-color: #eee; }
+
+.is-rounded {
+  border-radius: 15px;
+  overflow: hidden; }
+
+#services-header {
+  background-image: url("../../assets/images/child-reading-book-on-couch.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 200px 0; }
+  #services-header h1 {
+    color: #fff; }
+
+#services {
+  background-image: url("../../assets/images/kid-coloring.jpg");
+  background-size: cover; }
+
+#measure-success {
+  background-image: url("../../assets/images/two-boys-in-chalk-box.jpg");
+  background-size: cover;
+  background-position: center; }
+  #measure-success h2, #measure-success p {
+    color: #fff; }
+
+.posts .thumbnail {
+  margin-bottom: 20px; }
+
+footer {
+  background-color: #495B6E; }
+  footer p, footer h2 {
+    color: #fff; }
+  footer .columns .column {
+    border-right: 4px solid #35424f; }
+  footer .list li {
+    margin: 7px 0; }
+
+@media only screen and (max-width: 800px) {
+  header nav {
+    text-align: center; }
+
+  footer .columns .column {
+    border-right: none;
+    padding: 10px 0; } }
+
+/*# sourceMappingURL=brainpower.css.map */
