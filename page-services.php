@@ -95,9 +95,9 @@ new role as Curriculum Facilitator."</h2>
 				</div>
 				<div class="column is-fullwidth-on-mobile">
 					<ul class="list">
-						<li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-						<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+						<li><a href="https://www.facebook.com/brainpowerhelp/"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+						<li><a href="https://www.instagram.com/brainpowerhelp/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+						<li><a href="https://www.twitter.com/brainpowerhelp/"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
 					</ul>
 				</div>
 			</div>
