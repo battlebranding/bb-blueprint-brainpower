@@ -35,7 +35,7 @@
 			 <div class="columns is-fullwidth-on-mobile">
 				 <div class="column is-fullwidth-on-mobile has-large-padding">
 					 <div class="is-icon is-medium has-text-centered"><i class="fa fa-pencil" aria-hidden="true"></i></div>
-					 <h3 class="has-text-centered">Career Techers</h3>
+					 <h3 class="has-text-centered">Career Teachers</h3>
 					 <p>After teaching for a number of years, all teachers need to be refreshed and receive professional development that reignites their fire for teaching. Our professional development offerings are engaging and provide the latest research-based strategies in a variety of topics. Some examples include:</p>
 					 <ul>
 						 <li>Small/large group instruction</li>
